@@ -37,5 +37,4 @@ impl EngineClient {
     pub fn ClientCmd_Unrestricted(&self, command: *const c_char) {}
 }
 ```
-
-Support for multiple inheritance is untested.
+A field containing the virtual method table pointer will automatically be added to your structure. Support for multiple inheritance is untested.
