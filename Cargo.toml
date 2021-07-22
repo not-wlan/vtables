@@ -3,9 +3,10 @@ name = "vtables"
 version = "0.1.0"
 authors = ["jan"]
 edition = "2018"
-
-
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "GPL-3.0"
+repository = "https://github.com/not-wlan/vtables"
+homepage = "https://github.com/not-wlan/vtables"
+description = "Interact with C++ virtual method tables from Rust"
+readme = "README.md"
 
 [dependencies]

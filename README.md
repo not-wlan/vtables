@@ -6,8 +6,8 @@ Clone both this and [vtables_derive](https://github.com/not-wlan/vtables_derive)
 
 ```
 [dependencies]
-vtables = { path = "../vtables" }
-vtables_derive = { path = "../vtables_derive" }
+vtables = "0.1"
+vtables_derive = "0.1"
 ```
 
 You can then use methods from the virtual method table like this:
